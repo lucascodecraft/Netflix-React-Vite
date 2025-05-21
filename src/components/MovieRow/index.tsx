@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-import './index.css'
+import { useState } from "react";
+import './index.css';
 
 export default function MovieRow(props) {
     const { title, items } = props;
