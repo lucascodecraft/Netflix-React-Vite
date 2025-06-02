@@ -15,7 +15,6 @@ function App() {
     const loadAll = async () => {
       const list = await getHomeListData();
       setMovieList(list);
-      console.log(list);
 
       const originals = list.filter(i => i.slug === 'originals');
       const radomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
